@@ -1,0 +1,110 @@
+.enquiry-label {
+    font-weight: bold;
+    color: #333;
+}
+.enquiry-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    height: 40px;}
+
+.input-group {
+    margin-bottom: 20px;
+    height: 30px
+}
+
+.input-group-text{
+    width: 20;
+    margin-bottom: 20px; 
+    height: 40px
+}
+.submit-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 20;
+    width: 82%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgba(165, 207, 223, 0.8);
+    /* Semi-transparent background */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    /* Ensure the overlay is on top of everything */
+}
+.enquiry-form {
+    width: 100%;
+    background-color: #d9e6f2;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.newbutton{
+    background-color: #4f87d6;
+}
+
+
+
+
+
+.job-available-block {
+    width: 100%;
+    /* Add border */
+    padding: 10px;
+    /* Add padding for spacing */
+    margin-bottom: 10px;
+    margin-top: 15px;
+    /* Add margin for separation from other elements */
+    background-color: rgba(171, 189, 223, 0.882);
+    align-items: center;
+}
+
+.job-availability-info {
+    display: flex;
+
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+    /* Adjust margin-top as needed */
+    font-family: Arial, sans-serif;
+    /* Specify the desired font family */
+}
+
+.job-availability-info label {
+    align-items: center;
+    font-size: 16px;
+    /* Adjust font size as needed */
+    margin-bottom: 10px;
+    /* Adjust margin-bottom as needed */
+}
+
+.job-availability-info div {
+    margin-bottom: 15px;
+    /* Adjust margin-bottom as needed */
+}
+
+.job-availability-info input[type="date"] {
+    padding: 5px;
+    width: 300px;
+    /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.job-availability-info div:last-child {
+    margin-bottom: 0;
+    /* Remove bottom margin for the last div */
+}
+
+.job-availability-info span {
+    margin-right: 5px;
+    /* Adjust margin-right as needed */
+}

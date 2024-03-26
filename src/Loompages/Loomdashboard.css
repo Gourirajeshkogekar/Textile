@@ -1,0 +1,35 @@
+/* Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+ .card-container .card {
+    flex: 0 0 calc(33.33% - 20px);
+    /* Three cards per row */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(171, 224, 236);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+} 

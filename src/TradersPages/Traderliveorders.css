@@ -1,0 +1,56 @@
+/* Add this CSS to your stylesheet */
+.live-order-container {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    gap: 10px;
+    /* Adjust the gap between menu items */
+}
+
+.live-order {
+    width: 200px;
+    /* Adjust width of the menu item */
+    height: 200px;
+    /* Adjust height of the menu item */
+    background-color: #f0f0f0;
+    /* Background color of the menu item */
+    border: 1px solid #030404;
+    /* Border color of the menu item */
+    border-radius: 5px;
+    /* Adjust border radius to make it more rounded */
+    padding: 10px;
+    /* Adjust padding inside the menu item */
+}
+
+.live-order-item {
+    cursor: pointer;
+    color: #000;
+    padding: 10px;
+    /* Change cursor to indicate it's clickable */
+}
+
+.live-order-item:hover {
+    background-color: #fff;
+    /* Change background color on hover */
+}
+
+.submenu {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu ul li {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.submenu ul li:hover {
+    background-color: #e0e0e0;
+}

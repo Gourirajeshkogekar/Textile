@@ -1,0 +1,75 @@
+.otp-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.otp-split {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.left {
+    background-color: rgb(241, 119, 119);
+}
+
+.right {
+    background-color: rgba(0, 0, 0, 0.534);
+    color: black;
+
+}
+
+.otp-centered {
+    margin: 0 auto;
+    max-width: 400px;
+
+    /* Adjust this value as needed */
+    padding: 0 20px 0 20px;
+}
+
+.otp-form-group {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.otp-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.otp-form-label {
+    color: black;
+}
+
+.otp-btn {
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.otp-btn-primary {
+    background-color: rgb(53, 56, 239);
+    border: none;
+    color: black;
+}
+
+.otp-btn-primary:hover {
+    background-color: rgb(66, 137, 222);
+}
+
+.otp-btn-link {
+    color: rgb(39, 55, 205);
+}
+
+.otp-btn-link:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 100%;
+}

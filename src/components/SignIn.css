@@ -1,0 +1,81 @@
+/* SignIn.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin-left: 120px;
+        margin-right: 120px;
+        
+}
+
+.login-split {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.left {
+    background-color: rgb(241, 119, 119);
+    color: black;
+}
+
+.right {
+    background-color: rgba(0, 0, 0, 0.434);
+    color: black;
+}
+
+.login-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+.login-form-group {
+    margin-bottom: 20px;
+}
+
+.login-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form-label {
+    color: black;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn-primary {
+    background-color: rgb(53, 56, 239);
+    border: none;
+    color: black;
+}
+
+.login-btn-primary:hover {
+    background-color: rgb(66, 137, 222);
+}
+
+.login-btn-link {
+    color: rgb(39, 55, 205);
+}
+
+.login-btn-link:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 100%;
+}

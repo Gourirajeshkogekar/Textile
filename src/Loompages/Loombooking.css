@@ -1,0 +1,175 @@
+.loom-block-container{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+
+
+.block-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    /* Default color for available blocks */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.block:hover {
+    opacity: 0.8;
+}
+
+/* Define style for occupied blocks */
+.block.occupied {
+    background-color: red;
+}
+
+
+.label-container {
+    display: flex;
+     align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.available-label {
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.occupied-label {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+
+
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+.block-inputs {
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    font-family: Arial, sans-serif;
+        /* Specify the desired font family */
+}
+
+.block-inputs div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='date'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type='text']::placeholder,
+input[type='date']::placeholder {
+    color: #999;
+}
+
+input[type='text']:focus,
+input[type='date']:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.available-block {
+    width: 100%;
+    /* Add border */
+    padding: 10px;
+    /* Add padding for spacing */
+    margin-bottom: 20px;
+    /* Add margin for separation from other elements */
+    background-color: rgba(20, 162, 84, 0.21);
+    align-items: center;
+}
+
+.availability-info {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+    /* Adjust margin-top as needed */
+    font-family: Arial, sans-serif;
+        /* Specify the desired font family */
+}
+
+.availability-info label {
+    align-items: center;
+    font-size: 16px;
+    /* Adjust font size as needed */
+    margin-bottom: 10px;
+    /* Adjust margin-bottom as needed */
+}
+
+.availability-info div {
+    margin-bottom: 15px;
+    /* Adjust margin-bottom as needed */
+}
+
+.availability-info input[type="date"] {
+    padding: 5px;
+    width: 300px;
+    /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.availability-info div:last-child {
+    margin-bottom: 0;
+    /* Remove bottom margin for the last div */
+}
+
+.availability-info span {
+    margin-right: 5px;
+    /* Adjust margin-right as needed */
+}

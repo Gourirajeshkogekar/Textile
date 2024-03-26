@@ -1,0 +1,153 @@
+/* Orderdetails.css */
+
+.orderdetails {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    overflow-y: auto;
+    width: 50%;
+    
+}
+
+.order-item {
+    position: relative;
+    overflow-y: auto;
+    /* Add this to make the menu item a reference point for absolute positioning */
+    display: block;
+    /* Display as block element */
+    margin-bottom: 10px;
+    /* Adjust margin as needed */
+    color: #333;
+    font-weight: bold;
+}
+
+.order-link {
+    background-color: rgb(96, 162, 224);
+    width: 80%;
+    padding: 10px;
+    /* Add padding for better appearance */
+    cursor: pointer;
+    /* Change cursor to pointer to indicate it's clickable */
+}
+
+
+
+/* Orderdetails.css */
+
+/* Table styles */
+.order-table-container1,
+.order-table-container2,
+.order-table-container3,
+.order-table-container4 {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.order-table-container1 th,
+.order-table-container2 th,
+.order-table-container3 th,
+.order-table-container4 th,
+.order-table-container1 td,
+.order-table-container2 td,
+.order-table-container3 td,
+.order-table-container4 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: #333;
+}
+
+/* Orderdetails.css */
+
+/* Add these styles for the uploaded image */
+.order-table-container1 td img,
+.order-table-container2 td img,
+.order-table-container3 td img,
+.order-table-container4 td img {
+    max-width: 100px; /* Set a maximum width for the image */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    vertical-align: middle; /* Align the image vertically in the middle of the cell */
+}
+
+
+.order-table-container1 th,
+.order-table-container2 th,
+.order-table-container3 th,
+.order-table-container4 th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.order-table-container1 tr:nth-child(even),
+.order-table-container2 tr:nth-child(even),
+.order-table-container3 tr:nth-child(even),
+.order-table-container4 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.order-table-container1 tr:hover,
+.order-table-container2 tr:hover,
+.order-table-container3 tr:hover,
+.order-table-container4 tr:hover {
+    background-color: #ddd;
+}
+
+.order-button{
+    background-color: green;
+    
+   
+}
+
+.Order-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    height: 40px;
+    align-items: center;
+}
+
+.Order-button:hover {
+    background-color: #45a049;
+}
+
+.remove-button {
+    background-color: #f44336;
+    color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        height: 40px;
+        align-items: center;
+}
+
+.remove-button:hover {
+    background-color: #da190b;
+}
+
+.add-button {
+    background-color: #008CBA;
+    color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        height: 40px;align-items: center;
+}
+
+.add-button:hover {
+    background-color: #005f6b;
+}

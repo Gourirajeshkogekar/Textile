@@ -1,0 +1,77 @@
+.live-order-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow orders to wrap onto the next line */
+    justify-content: left;
+    /* Distribute space between items */
+    margin-top: 10px;
+    gap: 10px;
+    /* Adjust the gap between menu items */
+    margin-left: 10px;
+}
+
+.live-order {
+    margin-left: 10px;
+    
+    width: calc(33% - 10px);
+    /* Adjust width of the menu item */
+    /* Subtracting 10px to account for the 10px gap */
+    background-color: #f0f0f0;
+    /* Background color of the menu item */
+    border: 1px solid #030404;
+    /* Border color of the menu item */
+    border-radius: 5px;
+    /* Adjust border radius to make it more rounded */
+    padding: 10px;
+    /* Adjust padding inside the menu item */
+    box-sizing: border-box;
+    /* Include padding and border in the width calculation */
+}
+
+.live-order-item {
+    cursor: pointer;
+    color: #000;
+}
+
+.live-order-item:hover {
+    background-color: #fff;
+    /* Change background color on hover */
+}
+
+.submenu {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu ul li {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.submenu ul li:hover {
+    background-color: #e0e0e0;
+}
+
+
+h4{
+    margin-left: 10px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
